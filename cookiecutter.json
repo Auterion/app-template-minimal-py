@@ -1,0 +1,6 @@
+{
+    "app_name": "app-name",
+    "developer_slug": "com.example",
+    "app_version": "1.0.0",
+    "target_platform": "skynode"
+}

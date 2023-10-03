@@ -1,0 +1,21 @@
+auterion-api-version: 1
+auterion-app-base: v2
+
+app-name: {{cookiecutter.app_name}}
+app-author: {{cookiecutter.developer_slug}}
+app-version: {{cookiecutter.app_version}}
+target-platform: {{cookiecutter.target_platform}}
+
+services:
+  {{cookiecutter.app_name}}: 
+    build: services/{{cookiecutter.app_name}}
+
+
+# #### DOCKER COMPOSE MANUAL OVERRIDE API ####
+#   You can manually override the generated docker compose file
+#   by uncommenting the section below. Note that this API will be unstable
+#   and can can change in future auterion-api versions.
+#compose-override:
+#  services:
+#    test-app:
+#        ...
